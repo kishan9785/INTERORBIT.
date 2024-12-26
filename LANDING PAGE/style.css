@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .hero-section {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    text-decoration: none;
+    color: white;
+    background: #ff7f50;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .cta-btn:hover {
+    background: #ff6347;
+  }
+  
+  .about-section, .services-section, .footer-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-section h2, .services-section h2, .footer-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .services-section ul {
+    list-style: none;
+  }
+  
+  .services-section li {
+    margin: 10px 0;
+  }
+  
+  .footer-section {
+    background: #333;
+    color: white;
+  }
+  
